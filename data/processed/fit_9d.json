@@ -1,0 +1,1001 @@
+{
+  "file": "9d",
+  "spec": "7-component (disaggregated)",
+  "outcome": "sector growth",
+  "n_sectors": 17,
+  "flag_legend": {
+    "**": "robust (sig both SE)",
+    "~cl": "clustered-only",
+    "~dk": "DK-only",
+    "": "n.s."
+  },
+  "model_note": "model_significant = flood block jointly significant via Wald test (all 7 flood coefs = 0, p<0.05); overall_F_pval (all predictors) reported for context only",
+  "sectors": {
+    "A_agriculture": {
+      "CD": 0.22472105311538781,
+      "overall_F_pval": 0.12913790932065983,
+      "flood_block_pval_cl": 0.1512124685267009,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.08568304592644775,
+          "pBH_clustered": 0.5643190137219875,
+          "pBH_DK": 0.6305635955292922,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.05983678219918624,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.1414543474406339,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6803341028864004,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.026477336629187578,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.6685889505030181,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.016904358061977452,
+          "pBH_clustered": 0.7767274234461664,
+          "pBH_DK": 0.6423566883155527,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.029857859319841105,
+          "pBH_clustered": 0.6783397607210998,
+          "pBH_DK": 0.38145629181151264,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.07869313677191916,
+          "pBH_clustered": 0.2574055141862165,
+          "pBH_DK": 0.13885205569364414,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "B_mining": {
+      "CD": -0.534992834276444,
+      "overall_F_pval": 0.8352138265460625,
+      "flood_block_pval_cl": 0.8034551786713545,
+      "flood_block_pval_dk": 1.4566126083082054e-13,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.18948071368873717,
+          "pBH_clustered": 0.5643190137219875,
+          "pBH_DK": 0.5623796828204827,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.11800590898425393,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": 0.24935461376629386,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6413821229766223,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": 0.047389124808487094,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.8302294821341919,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.027504501225822597,
+          "pBH_clustered": 0.8301647295350764,
+          "pBH_DK": 0.6423566883155527,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.0327856171975364,
+          "pBH_clustered": 0.7997313457431605,
+          "pBH_DK": 0.773144649898746,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.09141902646371122,
+          "pBH_clustered": 0.4850731222979129,
+          "pBH_DK": 0.48810091573815256,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "C_manufacturing": {
+      "CD": 11.347203787244418,
+      "overall_F_pval": 0.026929811761240874,
+      "flood_block_pval_cl": 0.03316918933582358,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.09374226226778433,
+          "pBH_clustered": 0.6324060203466471,
+          "pBH_DK": 0.5943182897511866,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": 0.22927977054879045,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.14004540843806423,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.2879779180893368,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6413821229766223,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.06320779387139153,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.46430279510722156,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.0407040718871323,
+          "pBH_clustered": 0.6329588983764222,
+          "pBH_DK": 0.2265624700791598,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.11365933943666809,
+          "pBH_clustered": 0.35871931148864045,
+          "pBH_DK": 0.14435493095887925,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.10133355154651694,
+          "pBH_clustered": 0.3244379063083143,
+          "pBH_DK": 0.32830375079964513,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "D_electricity": {
+      "CD": -0.2095545733872145,
+      "overall_F_pval": 0.25974295584495155,
+      "flood_block_pval_cl": 0.6121779673067738,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.1654675417454645,
+          "pBH_clustered": 0.5643190137219875,
+          "pBH_DK": 0.6305635955292922,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": 0.09246582644016842,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.1937437763297997,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6803341028864004,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.01601706602699776,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.9012689667746514,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.016029515461850677,
+          "pBH_clustered": 0.8301647295350764,
+          "pBH_DK": 0.8543121189220955,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.06887852363491032,
+          "pBH_clustered": 0.6783397607210998,
+          "pBH_DK": 0.14435493095887925,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": 0.05706455174690561,
+          "pBH_clustered": 0.6577586630063469,
+          "pBH_DK": 0.02385719073616526,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "E_water": {
+      "CD": -1.8189779011106209,
+      "overall_F_pval": 0.007256219702759248,
+      "flood_block_pval_cl": 0.8495400077144841,
+      "flood_block_pval_dk": 7.421774109173107e-05,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.16933891998366798,
+          "pBH_clustered": 0.506873956588743,
+          "pBH_DK": 0.5943182897511866,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.07149079922653281,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.5201240520767586,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": 0.08174324287125023,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.8832576557638372,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": 0.010695679172803065,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.855666996651837,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.01811051596712921,
+          "pBH_clustered": 0.8301647295350764,
+          "pBH_DK": 0.7773847150261334,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.006288346687916803,
+          "pBH_clustered": 0.8848962961271587,
+          "pBH_DK": 0.9095633033576114,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.08900129258783579,
+          "pBH_clustered": 0.3244379063083143,
+          "pBH_DK": 0.4640741750704951,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "F_construction": {
+      "CD": 1.5003528563034831,
+      "overall_F_pval": 1.1454531767540743e-08,
+      "flood_block_pval_cl": 3.2877505329320655e-07,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.22951979445810933,
+          "pBH_clustered": 0.4894383762720937,
+          "pBH_DK": 0.12083274941254021,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.16249941463437,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.13296712684369835,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6803341028864004,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.053715842000743835,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.5095642159040557,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.0842442051731265,
+          "pBH_clustered": 0.21719904418866265,
+          "pBH_DK": 0.086506868389717,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.020861120593812493,
+          "pBH_clustered": 0.7997313457431605,
+          "pBH_DK": 0.773144649898746,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.32063204585209926,
+          "pBH_clustered": 0.004659954618331685,
+          "pBH_DK": 0.10847851590338732,
+          "flag": "~cl",
+          "sig_any": true
+        }
+      }
+    },
+    "G_trade": {
+      "CD": -0.09285728503002504,
+      "overall_F_pval": 0.00219193661185646,
+      "flood_block_pval_cl": 0.004560349802230856,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.2760375972303021,
+          "pBH_clustered": 0.050689419731751784,
+          "pBH_DK": 0.0036624060021122062,
+          "flag": "~dk",
+          "sig_any": true
+        },
+        "deaths": {
+          "beta": 0.022133418508611703,
+          "pBH_clustered": 0.8155488771180885,
+          "pBH_DK": 0.6747990856360444,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.11284100781200589,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6803341028864004,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.07723373853793294,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.17531015466377742,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.024038395374618465,
+          "pBH_clustered": 0.6871923099354137,
+          "pBH_DK": 0.39321147899675646,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.019480040050323333,
+          "pBH_clustered": 0.7997313457431605,
+          "pBH_DK": 0.5997369550601529,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.155192258401456,
+          "pBH_clustered": 0.015495085598759617,
+          "pBH_DK": 0.0003655829955104828,
+          "flag": "**",
+          "sig_any": true
+        }
+      }
+    },
+    "H_transport": {
+      "CD": 59.94192931752829,
+      "overall_F_pval": 0.16828660786383554,
+      "flood_block_pval_cl": 0.8589551009474354,
+      "flood_block_pval_dk": 1.1213252548714081e-14,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.30445000485188695,
+          "pBH_clustered": 0.506873956588743,
+          "pBH_DK": 0.5943182897511866,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.0698142130056664,
+          "pBH_clustered": 0.8155488771180885,
+          "pBH_DK": 0.6625519997076004,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.3628841658033564,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6413821229766223,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": 0.02545298771826608,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.855666996651837,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.08335416174855531,
+          "pBH_clustered": 0.6329588983764222,
+          "pBH_DK": 0.39321147899675646,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.12051497760765255,
+          "pBH_clustered": 0.6478728970674646,
+          "pBH_DK": 0.14435493095887925,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.052407591393617066,
+          "pBH_clustered": 0.6669750173198425,
+          "pBH_DK": 0.5291456729989528,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "I_accommodation": {
+      "CD": 6.021519941387974,
+      "overall_F_pval": 0.00027874379410530725,
+      "flood_block_pval_cl": 0.00037277754530040674,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.30444429851402266,
+          "pBH_clustered": 0.39430230932024574,
+          "pBH_DK": 0.5129043558587343,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.17148139646696914,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.1375891379832981,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6413821229766223,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.13169992292160498,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.22228151248882158,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.044487400483333744,
+          "pBH_clustered": 0.6329588983764222,
+          "pBH_DK": 0.39321147899675646,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.06858551378525862,
+          "pBH_clustered": 0.6478728970674646,
+          "pBH_DK": 0.6546661993877758,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.2293190534279944,
+          "pBH_clustered": 0.015495085598759617,
+          "pBH_DK": 0.01593783467364851,
+          "flag": "**",
+          "sig_any": true
+        }
+      }
+    },
+    "J_infocomm": {
+      "CD": 6.9813918592620325,
+      "overall_F_pval": 0.1250660412148773,
+      "flood_block_pval_cl": 0.260895575642218,
+      "flood_block_pval_dk": 1.5543122344752192e-15,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.09292141045451842,
+          "pBH_clustered": 0.5643190137219875,
+          "pBH_DK": 0.5943182897511866,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": 0.235567256097206,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.15681197734848895,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.1401692115740693,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6413821229766223,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.026656055984983495,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.8302294821341919,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.0016322529813546512,
+          "pBH_clustered": 0.9448674127123047,
+          "pBH_DK": 0.9371179924748516,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.05388171339002065,
+          "pBH_clustered": 0.6252432816382507,
+          "pBH_DK": 0.1899199480628259,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.0784240025922148,
+          "pBH_clustered": 0.3244379063083143,
+          "pBH_DK": 0.01593783467364851,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "K_finance": {
+      "CD": 11.208773634825127,
+      "overall_F_pval": 0.3886758824836355,
+      "flood_block_pval_cl": 0.10605918749856402,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.21339149185693762,
+          "pBH_clustered": 0.4894383762720937,
+          "pBH_DK": 0.6305635955292922,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.10359300398686995,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.42817629247195876,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": 0.05855062307886058,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.8832576557638372,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": 0.22926231046627474,
+          "pBH_clustered": 0.17603387859296327,
+          "pBH_DK": 0.008292131305596362,
+          "flag": "~dk",
+          "sig_any": true
+        },
+        "house_flooded": {
+          "beta": 0.00836502998727941,
+          "pBH_clustered": 0.8524468165966155,
+          "pBH_DK": 0.8543121189220955,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.029057937570703286,
+          "pBH_clustered": 0.7997313457431605,
+          "pBH_DK": 0.773144649898746,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.069413178520661,
+          "pBH_clustered": 0.45418009381173524,
+          "pBH_DK": 0.48810091573815256,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "L_realestate": {
+      "CD": -0.31502627370034436,
+      "overall_F_pval": 0.14764772912203905,
+      "flood_block_pval_cl": 0.27216803927138766,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.010379539870200892,
+          "pBH_clustered": 0.8999615387235393,
+          "pBH_DK": 0.8721048525838175,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": 0.08336363503009421,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.011151955519280993,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.8832576557638372,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.07716953447018093,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.5095642159040557,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.01423401380469864,
+          "pBH_clustered": 0.7767274234461664,
+          "pBH_DK": 0.39321147899675646,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.003831419144803637,
+          "pBH_clustered": 0.8848962961271587,
+          "pBH_DK": 0.9095633033576114,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": 0.05555220245044016,
+          "pBH_clustered": 0.3244379063083143,
+          "pBH_DK": 0.001467666210405394,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "MN_business": {
+      "CD": 6.401258290384308,
+      "overall_F_pval": 1.8468846452179832e-08,
+      "flood_block_pval_cl": 0.0009833577923930026,
+      "flood_block_pval_dk": 1.2875559507463663e-09,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.21707988331104036,
+          "pBH_clustered": 0.39430230932024574,
+          "pBH_DK": 0.21966904422005007,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.1764994972472782,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.4358686860918401,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.1120880226846556,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6803341028864004,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.06347778745067481,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.10394832461647785,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.013076053559823117,
+          "pBH_clustered": 0.8301647295350764,
+          "pBH_DK": 0.8543121189220955,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.09462298946896719,
+          "pBH_clustered": 0.35871931148864045,
+          "pBH_DK": 0.34940105182734893,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.19884430798114705,
+          "pBH_clustered": 0.058685616811073336,
+          "pBH_DK": 0.01593783467364851,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "O_government": {
+      "CD": -1.3152055045908293,
+      "overall_F_pval": 0.15803763473965804,
+      "flood_block_pval_cl": 0.4746179996216918,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.04881007099829678,
+          "pBH_clustered": 0.7913877475246132,
+          "pBH_DK": 0.6980741658068925,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.03500120490272175,
+          "pBH_clustered": 0.8155488771180885,
+          "pBH_DK": 0.7219208272974069,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": 0.11550618166150302,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.8832576557638372,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": 0.03371404973740733,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.8302294821341919,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.012014175262970647,
+          "pBH_clustered": 0.8301647295350764,
+          "pBH_DK": 0.6472607808427328,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.045995121612361245,
+          "pBH_clustered": 0.6783397607210998,
+          "pBH_DK": 0.14435493095887925,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.09569111861371898,
+          "pBH_clustered": 0.3244379063083143,
+          "pBH_DK": 0.2772444465204617,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "P_education": {
+      "CD": -2.0702928395530447,
+      "overall_F_pval": 0.0010059464899339066,
+      "flood_block_pval_cl": 0.0017329167311799232,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.02502652715517046,
+          "pBH_clustered": 0.8389901937590116,
+          "pBH_DK": 0.8547282969298091,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": 0.06804661328438107,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.13464761856379426,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.6413821229766223,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.1997496677172337,
+          "pBH_clustered": 0.17603387859296327,
+          "pBH_DK": 0.0,
+          "flag": "~dk",
+          "sig_any": true
+        },
+        "house_flooded": {
+          "beta": 0.03951724231674146,
+          "pBH_clustered": 0.30612342736674664,
+          "pBH_DK": 0.018569120500059988,
+          "flag": "~dk",
+          "sig_any": true
+        },
+        "house_damaged": {
+          "beta": -0.019630906080518342,
+          "pBH_clustered": 0.7997313457431605,
+          "pBH_DK": 0.38145629181151264,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.09589500612934569,
+          "pBH_clustered": 0.160609164181201,
+          "pBH_DK": 0.040162176752940176,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "Q_health": {
+      "CD": 2.544681188928661,
+      "overall_F_pval": 0.01653995904223171,
+      "flood_block_pval_cl": 0.0659504829387163,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.36729388899081283,
+          "pBH_clustered": 0.050689419731751784,
+          "pBH_DK": 0.0036624060021122062,
+          "flag": "~dk",
+          "sig_any": true
+        },
+        "deaths": {
+          "beta": 0.1081387635361157,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": 0.020911118801501042,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.8832576557638372,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": 0.022908649123190183,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.855666996651837,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": -0.006888442881612057,
+          "pBH_clustered": 0.8524468165966155,
+          "pBH_DK": 0.8543121189220955,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": -0.013336545465003737,
+          "pBH_clustered": 0.8447261593777041,
+          "pBH_DK": 0.773144649898746,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.054253819681032156,
+          "pBH_clustered": 0.4850731222979129,
+          "pBH_DK": 0.48810091573815256,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "RSTU_other": {
+      "CD": 3.727714875862497,
+      "overall_F_pval": 0.0003627752388206673,
+      "flood_block_pval_cl": 0.0011626988774688929,
+      "flood_block_pval_dk": 0.0,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.08004299276071314,
+          "pBH_clustered": 0.6837262485209911,
+          "pBH_DK": 0.8216714481417632,
+          "flag": "",
+          "sig_any": false
+        },
+        "deaths": {
+          "beta": -0.09389440532207925,
+          "pBH_clustered": 0.7941216185232807,
+          "pBH_DK": 0.6566196737121222,
+          "flag": "",
+          "sig_any": false
+        },
+        "missing": {
+          "beta": -0.04969379108039241,
+          "pBH_clustered": 0.9358520325241759,
+          "pBH_DK": 0.8832576557638372,
+          "flag": "",
+          "sig_any": false
+        },
+        "injured": {
+          "beta": -0.1072617482034851,
+          "pBH_clustered": 0.9248655079506969,
+          "pBH_DK": 0.46430279510722156,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_flooded": {
+          "beta": 0.08253955532084699,
+          "pBH_clustered": 0.10481729771673809,
+          "pBH_DK": 0.39321147899675646,
+          "flag": "",
+          "sig_any": false
+        },
+        "house_damaged": {
+          "beta": 0.022980188639670746,
+          "pBH_clustered": 0.7997313457431605,
+          "pBH_DK": 0.8356206724850302,
+          "flag": "",
+          "sig_any": false
+        },
+        "fasum_damaged": {
+          "beta": -0.2704568506295165,
+          "pBH_clustered": 0.005734180312362835,
+          "pBH_DK": 0.005773841667959578,
+          "flag": "**",
+          "sig_any": true
+        }
+      }
+    }
+  }
+}

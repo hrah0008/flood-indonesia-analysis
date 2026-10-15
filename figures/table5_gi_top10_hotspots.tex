@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\caption{Top 10 Flood Severity Index (FSI) hot spots ranked by local spatial intensity ($G_i^{*}$ $z$-score), 2016--2025}
+\label{tab:gi_hotspots}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{0pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}clcccc@{}}
+\toprule
+\textbf{Rank} & \textbf{Regency (Province)} & \textbf{FSI (0--100)} & \textbf{$G_i^{*}$ $z$-score} & \textbf{Confidence} & \textbf{Cluster} \\
+\midrule
+1  & Kota Lhokseumawe (Aceh)          & 51.3 & 4.36 & Hot 99\% & 2 \\
+2  & Kota Langsa (Aceh)               & 46.3 & 4.26 & Hot 99\% & 2 \\
+3  & Bireuen (Aceh)                   & 69.5 & 4.13 & Hot 99\% & 1 \\
+4  & Bener Meriah (Aceh)              & 60.4 & 4.12 & Hot 99\% & 1 \\
+5  & Aceh Timur (Aceh)                & 68.7 & 4.01 & Hot 99\% & 1 \\
+6  & Aceh Tengah (Aceh)               & 71.5 & 3.94 & Hot 99\% & 1 \\
+7  & Kota Pariaman (Sumatera Barat)   & 31.8 & 3.68 & Hot 99\% & 3 \\
+8  & Kota Sukabumi (Jawa Barat)       & 38.5 & 3.61 & Hot 99\% & 2 \\
+9  & Pasaman (Sumatera Barat)         & 53.7 & 3.46 & Hot 99\% & 2 \\
+10  & Gayo Lues (Aceh)                 & 49.2 & 3.23 & Hot 99\% & 2 \\
+\bottomrule
+\end{tabular*}
+\vspace{4pt}
+\begin{minipage}{\textwidth}
+\footnotesize\setlength{\parindent}{0pt}%
+\textit{Note:} Hot spots ranked by Getis--Ord $G_i^{*}$ $z$-score based on a $k$-NN ($k=5$) spatial weight matrix (999 conditional permutations). 
+Cluster profiles based on K-means clustering ($k=3$): 
+\textbf{1} (\emph{Catastrophic}, $n=68$): characterized by exceptionally high casualties per event and severe physical damage; 
+\textbf{2} (\emph{Frequent-Contained}, $n=274$): characterized by high event frequency with comparatively contained casualties per event; 
+\textbf{3} (\emph{Low Impact}, $n=172$): characterized by low event frequency, minimal casualties, and limited infrastructure damage. 
+Complete hot-spot ($n=54$) and cold-spot ($n=62$) classifications across all 514 regencies are provided in Supplementary Table~S1.
+\end{minipage}
+\end{table}

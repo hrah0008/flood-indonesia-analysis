@@ -1,0 +1,25 @@
+﻿# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large third-party raw data (not redistributed - see data/README.md)
+data/raw/BIG/
+
+# Safety net: ignore any geodatabase / large shapefile anywhere
+*.gdb/
+*.gdbtable
+*.gdbtablx
+
+# Large processed geospatial files (regenerate via notebooks)
+data/processed/*.gpkg
+*.gpkg
