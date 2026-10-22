@@ -1,0 +1,508 @@
+{
+  "file": "9b",
+  "spec": "3-dimension (event, HCI, PDI)",
+  "outcome": "sector growth",
+  "n_sectors": 17,
+  "flag_legend": {
+    "**": "robust (sig both SE)",
+    "~cl": "clustered-only",
+    "~dk": "DK-only",
+    "": "n.s."
+  },
+  "model_note": "model_significant = flood block jointly significant via Wald test (event+HCI+PDI=0, p<0.05); overall_F_pval (all predictors) reported for context only",
+  "sectors": {
+    "A_agriculture": {
+      "CD": 0.3205728384238676,
+      "overall_F_pval": 0.08511366714055257,
+      "flood_block_pval": 0.1376632299986693,
+      "model_significant": false,
+      "dims": {
+        "event": {
+          "beta": 0.08125198118625007,
+          "pBH_clustered": 0.44754526421168855,
+          "pBH_DK": 0.6267544536886299,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.049125071297934614,
+          "pBH_clustered": 0.4406863774819933,
+          "pBH_DK": 0.2432408421134108,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.014007525532838122,
+          "pBH_clustered": 0.49403391607947356,
+          "pBH_DK": 0.5885933769838487,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "B_mining": {
+      "CD": -0.49766811516671877,
+      "overall_F_pval": 0.5192238013113519,
+      "flood_block_pval": 0.03060487396621059,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.214882315897495,
+          "pBH_clustered": 0.43115513456194354,
+          "pBH_DK": 0.45392921983469864,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": 0.005850096621491701,
+          "pBH_clustered": 0.939686061596366,
+          "pBH_DK": 0.9164241889136533,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.04228430678765172,
+          "pBH_clustered": 0.3627135068099329,
+          "pBH_DK": 0.029290792474382044,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "C_manufacturing": {
+      "CD": 11.05086059743554,
+      "overall_F_pval": 0.011696762173539654,
+      "flood_block_pval": 2.034605840872672e-05,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.15524436760349083,
+          "pBH_clustered": 0.4235454760427443,
+          "pBH_DK": 0.486175203831895,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.017512791914124873,
+          "pBH_clustered": 0.939686061596366,
+          "pBH_DK": 0.7989420840280399,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.07127810634548025,
+          "pBH_clustered": 0.09765283028184024,
+          "pBH_DK": 0.005696241212221009,
+          "flag": "~dk",
+          "sig_any": true
+        }
+      }
+    },
+    "D_electricity": {
+      "CD": -0.23892734615059585,
+      "overall_F_pval": 0.08503056082710014,
+      "flood_block_pval": 0.006341450445345509,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": -0.1598848189899104,
+          "pBH_clustered": 0.48996670186888697,
+          "pBH_DK": 0.6011326338107434,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.008051863792157814,
+          "pBH_clustered": 0.939686061596366,
+          "pBH_DK": 0.9164241889136533,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.018217231495462435,
+          "pBH_clustered": 0.7250968816310792,
+          "pBH_DK": 0.6120764294172412,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "E_water": {
+      "CD": -1.8440407516932016,
+      "overall_F_pval": 0.0007328726144237852,
+      "flood_block_pval": 0.5245018217758022,
+      "model_significant": false,
+      "dims": {
+        "event": {
+          "beta": 0.18568110896489717,
+          "pBH_clustered": 0.3500781024895306,
+          "pBH_DK": 0.6011326338107434,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.016103839861908373,
+          "pBH_clustered": 0.939686061596366,
+          "pBH_DK": 0.9164241889136533,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.027747079615307885,
+          "pBH_clustered": 0.46763092470011947,
+          "pBH_DK": 0.6860333939294797,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "F_construction": {
+      "CD": 1.3894283749304792,
+      "overall_F_pval": 1.697735768868558e-05,
+      "flood_block_pval": 0.0002676494185589462,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.3966141996260299,
+          "pBH_clustered": 0.048525488441932885,
+          "pBH_DK": 0.06403190981937057,
+          "flag": "~cl",
+          "sig_any": true
+        },
+        "HCI": {
+          "beta": -0.18267155526550202,
+          "pBH_clustered": 0.036384597495504864,
+          "pBH_DK": 0.2432408421134108,
+          "flag": "~cl",
+          "sig_any": true
+        },
+        "PDI": {
+          "beta": -0.007146100184265297,
+          "pBH_clustered": 0.9850438342086987,
+          "pBH_DK": 0.9838241420623062,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "G_trade": {
+      "CD": -0.11453631138592192,
+      "overall_F_pval": 0.0033402831108956255,
+      "flood_block_pval": 0.00010427263852119673,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.2965298051648478,
+          "pBH_clustered": 0.0190585604372584,
+          "pBH_DK": 0.008394884228025257,
+          "flag": "**",
+          "sig_any": true
+        },
+        "HCI": {
+          "beta": -0.04837289118870329,
+          "pBH_clustered": 0.5003617723251009,
+          "pBH_DK": 0.3735521004862754,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.03341418400087964,
+          "pBH_clustered": 0.1481446978515198,
+          "pBH_DK": 0.17058382400295122,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "H_transport": {
+      "CD": 59.59618305712665,
+      "overall_F_pval": 0.04622809927631688,
+      "flood_block_pval": 0.12165367594576415,
+      "model_significant": false,
+      "dims": {
+        "event": {
+          "beta": -0.2785710192813948,
+          "pBH_clustered": 0.4235454760427443,
+          "pBH_DK": 0.6011326338107434,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.07410455335766945,
+          "pBH_clustered": 0.6574051283660692,
+          "pBH_DK": 0.2432408421134108,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": 0.06981737020711111,
+          "pBH_clustered": 0.33289057237897535,
+          "pBH_DK": 0.3238246081631691,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "I_accommodation": {
+      "CD": 5.9730670543793005,
+      "overall_F_pval": 0.0004075530854874554,
+      "flood_block_pval": 2.1584839804411615e-08,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.3815069699082122,
+          "pBH_clustered": 0.05960375330154117,
+          "pBH_DK": 0.38166508236608176,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.1771097870269391,
+          "pBH_clustered": 0.036384597495504864,
+          "pBH_DK": 0.08389512074804303,
+          "flag": "~cl",
+          "sig_any": true
+        },
+        "PDI": {
+          "beta": 0.0030732741936331516,
+          "pBH_clustered": 0.9850438342086987,
+          "pBH_DK": 0.9838241420623062,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "J_infocomm": {
+      "CD": 7.13636212250556,
+      "overall_F_pval": 0.15929712094001824,
+      "flood_block_pval": 0.17635369907431542,
+      "model_significant": false,
+      "dims": {
+        "event": {
+          "beta": 0.15087248630238403,
+          "pBH_clustered": 0.3500781024895306,
+          "pBH_DK": 0.277312343223513,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": 0.027047296318980372,
+          "pBH_clustered": 0.7474933217383832,
+          "pBH_DK": 0.7989420840280399,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.02735652186501042,
+          "pBH_clustered": 0.33289057237897535,
+          "pBH_DK": 0.17058382400295122,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "K_finance": {
+      "CD": 11.338309382693046,
+      "overall_F_pval": 0.2729988551434721,
+      "flood_block_pval": 0.12795229473651482,
+      "model_significant": false,
+      "dims": {
+        "event": {
+          "beta": -0.19922798915781087,
+          "pBH_clustered": 0.3500781024895306,
+          "pBH_DK": 0.6267544536886299,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": 0.07476021365439633,
+          "pBH_clustered": 0.4406863774819933,
+          "pBH_DK": 0.08389512074804303,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.0016524944614161698,
+          "pBH_clustered": 0.9850438342086987,
+          "pBH_DK": 0.9838241420623062,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "L_realestate": {
+      "CD": -0.3191232550051063,
+      "overall_F_pval": 0.058872024182570315,
+      "flood_block_pval": 0.048014756633631084,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.002888851601942976,
+          "pBH_clustered": 0.9712609212819627,
+          "pBH_DK": 0.9652622956954209,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.004320119057291436,
+          "pBH_clustered": 0.939686061596366,
+          "pBH_DK": 0.9164241889136533,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": 0.019561431859006873,
+          "pBH_clustered": 0.33289057237897535,
+          "pBH_DK": 0.17058382400295122,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "MN_business": {
+      "CD": 6.372516962606457,
+      "overall_F_pval": 1.2611331345890875e-07,
+      "flood_block_pval": 0.001023444150169861,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.3443406749898461,
+          "pBH_clustered": 0.048525488441932885,
+          "pBH_DK": 0.06403190981937057,
+          "flag": "~cl",
+          "sig_any": true
+        },
+        "HCI": {
+          "beta": -0.17813292142817963,
+          "pBH_clustered": 0.036384597495504864,
+          "pBH_DK": 0.0776688219816114,
+          "flag": "~cl",
+          "sig_any": true
+        },
+        "PDI": {
+          "beta": -0.05752232221336653,
+          "pBH_clustered": 0.1481446978515198,
+          "pBH_DK": 0.3139158420633434,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "O_government": {
+      "CD": -1.1995048005761186,
+      "overall_F_pval": 0.14618232180203727,
+      "flood_block_pval": 0.2826774184185842,
+      "model_significant": false,
+      "dims": {
+        "event": {
+          "beta": 0.01708875606939558,
+          "pBH_clustered": 0.9455320250629726,
+          "pBH_DK": 0.9284621802800007,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.014066465677086006,
+          "pBH_clustered": 0.939686061596366,
+          "pBH_DK": 0.9164241889136533,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.024947051925084347,
+          "pBH_clustered": 0.4830489674830438,
+          "pBH_DK": 0.3139158420633434,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "P_education": {
+      "CD": -2.059254942046031,
+      "overall_F_pval": 0.012708375882181766,
+      "flood_block_pval": 0.0007007823035087846,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.05236138427633909,
+          "pBH_clustered": 0.6835087154427248,
+          "pBH_DK": 0.7684216173951987,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.12643081644247403,
+          "pBH_clustered": 0.036384597495504864,
+          "pBH_DK": 0.003888502702165564,
+          "flag": "**",
+          "sig_any": true
+        },
+        "PDI": {
+          "beta": -0.0002765765388722202,
+          "pBH_clustered": 0.9850438342086987,
+          "pBH_DK": 0.9838241420623062,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "Q_health": {
+      "CD": 2.5474459052365126,
+      "overall_F_pval": 0.0014750725109213825,
+      "flood_block_pval": 0.0007955247767330587,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.3867843476427503,
+          "pBH_clustered": 0.0190585604372584,
+          "pBH_DK": 0.0029379346435984832,
+          "flag": "**",
+          "sig_any": true
+        },
+        "HCI": {
+          "beta": 0.04638122613624381,
+          "pBH_clustered": 0.6574051283660692,
+          "pBH_DK": 0.6689845756242544,
+          "flag": "",
+          "sig_any": false
+        },
+        "PDI": {
+          "beta": -0.016587201384985085,
+          "pBH_clustered": 0.6001564436277125,
+          "pBH_DK": 0.3139158420633434,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    },
+    "RSTU_other": {
+      "CD": 4.2216427014139075,
+      "overall_F_pval": 0.06797292937557242,
+      "flood_block_pval": 0.044298995769806226,
+      "model_significant": true,
+      "dims": {
+        "event": {
+          "beta": 0.06796924307828775,
+          "pBH_clustered": 0.6959945120172386,
+          "pBH_DK": 0.875668219957897,
+          "flag": "",
+          "sig_any": false
+        },
+        "HCI": {
+          "beta": -0.16142294838580648,
+          "pBH_clustered": 0.036384597495504864,
+          "pBH_DK": 0.08389512074804303,
+          "flag": "~cl",
+          "sig_any": true
+        },
+        "PDI": {
+          "beta": 0.0023569383796769082,
+          "pBH_clustered": 0.9850438342086987,
+          "pBH_DK": 0.9838241420623062,
+          "flag": "",
+          "sig_any": false
+        }
+      }
+    }
+  }
+}

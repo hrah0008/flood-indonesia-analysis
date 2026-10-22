@@ -1,0 +1,6 @@
+feature,mean_abs_shap,group
+rls_years,0.15977938,control
+log_population,0.10268097,control
+PDI_log,0.021831304,flood
+event_count_log,0.004625618,flood
+HCI_log,0.00035072133,flood
